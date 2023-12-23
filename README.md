@@ -33,14 +33,15 @@ Tech - Stack Flow Diagram
 
 
 
+Deployment 
 
-Deployment
+Git clone https://github.com/Rediet21?Traffic _flow.git
+Cd Traffic_flow
+Pip install –r requierments.txt
+Cd airflow
+Docker –compose up
 
-git clone https://github.com/Rediet21/Traffic_flow.git
-cd Traffic_flow
-pip install -r requierments.txt
-cd airflow
-docker -compose up
+
 
 1, Data Source : The csv files that contains the value recorded
 2, Python Script : Will extract and Load the raw data inside our database
